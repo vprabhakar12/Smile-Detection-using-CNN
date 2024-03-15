@@ -9,13 +9,13 @@ The main stages of the algorithm is as follows:
 3. Predict the label for the required test set.
 
 The basic layer structure used to construct the CNN is as follows:
-1. Convolution-1 (2D)            _the input size equal to the pixel dimensions of the image_
+1. Convolution-1 (2D) - - - - - - _the input size equal to the pixel dimensions of the image_
 2. Max Pooling-1 (2D)
 3. Convolution-2 (2D)
 4. Max Pooling-2 (2D)
 5. Fully Connected-1 (Linear)
 6. Fully Connected-2 (Linear)
-7. Fully Connected-3 (Linear)    _no. of neurons equal to the number of label classes_
+7. Fully Connected-3 (Linear) - - _no. of neurons equal to the number of classes_
 ## Dataset
 This project uses the SMILEs data set from Hromada found [here](https://github.com/hromi/SMILEsmileD.git)
 ## How to RUN
