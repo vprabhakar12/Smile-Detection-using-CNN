@@ -9,25 +9,34 @@ The main stages of the algorithm is as follows:
 3. Predict the label for the required test set.
 
 The basic layer structure used to construct the CNN is as follows:
-1. Convolution-1 (2D) - - - - - - _the input size equal to the pixel dimensions of the image_
-2. Max Pooling-1 (2D)
-3. Convolution-2 (2D)
-4. Max Pooling-2 (2D)
-5. Fully Connected-1 (Linear)
-6. Fully Connected-2 (Linear)
-7. Fully Connected-3 (Linear) - - _no. of neurons equal to the number of classes_
+
+| Layer             | Type     |  Output Size   | Filter              |
+|:------------------|:---------|---------------:|:--------------------|
+| Input Image       | 2-D      |  1 x 28 x 28   |                     |
+| Convolution       | 2-D      |  6 x 26 x 26   | 2 x 2, Stride = 1   |
+| Max Pooling       | 2-D      |  6 x 13 x 13   | 2 x 2               |
+| Convolution       | 2-D      | 16 x 11 x 11   | 2 x 2, Stride = 1   |
+| Max Pooling       | 2-D      | 16 x  5 x  5   | 2 x 2               |
+| Fully Connected-1 | Linear   | 120            |                     |
+| Fully Connected-2 | Linear   |  84            |                     |
+| Fully Connected-3 | Linear   |   2            |                     |
+## Prediction Results
+
 ## Dataset
 This project uses the SMILEs data set from Hromada found [here](https://github.com/hromi/SMILEsmileD.git)
-## Environment
+## Environment Setup
 This project uses jupyter notebook to run the file programmed in python.
 The installation lines for the libraries which are needed with the above two:
+```
 1. pip install numpy
 2. pip install pandas
 3. pip install matplotlib
 4. pip install scikit-learn
 5. pip install opencv-python
-6. conda install pytorch based on your system specs [here](https://pytorch.org/get-started/locally/)
-7. !pip install imutils
+6. conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia ***
+7. pip install imutils
+```
+***PyTorch, installation to be followed as per the local system specs [here](https://pytorch.org/get-started/locally/)
 ## How to RUN
 1. Download the dataset and the jupyter notebook locally.
 2. Update the path to a dataset in the notebook.
