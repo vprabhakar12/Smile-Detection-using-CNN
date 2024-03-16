@@ -45,4 +45,4 @@ The installation lines for the libraries which are needed with the above two:
 5. Download the model.pt file and update the path
 6. Run the 'predict' cell to get the prediction.
 ## Credits 🙌
-The Deep Learning With PyTorch playlist on YouTube by John Elder (Codemy.com) provided the necessary knowledge for implementation of the CNN, Hromada for the extensively labeled dataset, and my peers for providing their portraits for the final testing.
+The Deep Learning with PyTorch playlist on YouTube by John Elder (Codemy.com) provided the necessary knowledge for implementation of the CNN, Hromada for the extensively labeled dataset, and my peers for providing their portraits for the final testing.
