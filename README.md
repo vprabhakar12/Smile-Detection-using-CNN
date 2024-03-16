@@ -4,7 +4,7 @@ Face detection in cameras, especially the 'smile' to automatically capture photo
 Due to the 2-dimensionality of images, it will be humongous to feed each pixel to an input in the training of models. Hence, the principle of convolution is employed to construct a Convoluted Neural Network (CNN) that after reducing the input parameters of an image, it is passed through a fully connected neural network.
 
 The main stages of the algorithm is as follows:
-1. Pre-process the image to a standard size and color scaling.
+1. Pre-process the image to a standard size (28x28 pixels) and color scaling.
 2. Train the CNN over the dataset.
 3. Predict the label for the required test set.
 
