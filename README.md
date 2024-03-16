@@ -21,7 +21,7 @@ The basic layer structure used to construct the CNN is as follows:
 | Fully Connected-2 | Linear   |  84            |                     |
 | Fully Connected-3 | Linear   |   2            |                     |
 ## Prediction Results 📈
-![Final Result](https://github.com/vprabhakar12/Smile-Detection-using-CNN/assets/66132540/3658cb99-65c4-45f7-a7ff-4444b4faeedf)
+![Final Result_3](https://github.com/vprabhakar12/Smile-Detection-using-CNN/assets/66132540/34639298-956a-49a3-a009-a67a1763ca5c)
 ## Dataset 📂
 This project uses the SMILEs data set from Hromada found [here](https://github.com/hromi/SMILEsmileD.git)
 ## Environment Setup 🛠️
