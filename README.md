@@ -1,5 +1,5 @@
 # Smile-Detection-using-CNN 🙂
-Face detection in cameras, especially the 'smile' to automatically capture photos was implemented in digital cameras since the early 2000s. Due to the advancements in machine learning, we are now able not just to recognize smiles, but various other expressions to initiate multiple functions in our systems. This project is an exploration detailing the mechanisms used specifically to detect smiles.
+Face detection in cameras, especially the 'smile' to automatically capture photos was implemented in digital cameras ever since the early 2000s. Owing to the advancements in machine learning, we are now able not just to recognize smiles, but various other expressions to initiate multiple functions in our systems. This project is an exploration detailing the mechanisms used specifically to detect smiles.
 ## Project Description 🔍
 Due to the 2-dimensionality of images, it will be humongous to feed each pixel to an input in the training of models. Hence, the principle of convolution is employed to construct a Convoluted Neural Network (CNN) that after reducing the input parameters of an image, it is passed through a fully connected neural network.
 
@@ -25,7 +25,7 @@ The basic layer structure used to construct the CNN is as follows:
 ## Dataset 📂
 This project uses the SMILEs data set from Hromada found [here](https://github.com/hromi/SMILEsmileD.git)
 ## Environment Setup 🛠️
-This project uses jupyter notebook to run the file programmed in python.
+This project uses jupyter notebook to run the file programmed in Python.
 The installation lines for the libraries which are needed with the above two:
 ```
 1. pip install numpy
@@ -45,4 +45,4 @@ The installation lines for the libraries which are needed with the above two:
 5. Download the model.pt file and update the path
 6. Run the 'predict' cell to get the prediction.
 ## Credits 🙌
-The Deep Learning With PyTorch playlist on YouTube by John Elder (Codemy.com) provided the necessary knowledge for implementation of the CNN. Hromada for the extensive labeled dataset. And my friends for providing their portraits for the final testing.
+The Deep Learning With PyTorch playlist on YouTube by John Elder (Codemy.com) provided the necessary knowledge for implementation of the CNN, Hromada for the extensively labeled dataset, and my peers for providing their portraits for the final testing.
